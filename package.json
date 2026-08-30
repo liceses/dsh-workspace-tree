@@ -1,7 +1,7 @@
 {
   "name": "dsh-workspace-tree",
   "version": "1.0.0",
-  "description": "DSH 工作区树：把左侧栏工作区从「工作区→会话」单层结构升级为多级文件夹树——文件夹任意嵌套、会话可归入任意文件夹，附带新建/重命名/删除/移动管理。",
+  "description": "DSH 工作区树：把左侧栏工作区重做为文件系统树双模式——文件夹模式按真实目录层级浏览并新建（会话 cwd = 目录，环境隔离），工作区模式只管工作区与会话；工作区=目录强绑定，含拖拽排序、状态向上透传与配置面板。",
   "type": "module",
   "main": "./lib/index.js",
   "exports": {
@@ -21,6 +21,7 @@
   },
   "files": [
     "lib",
+    "docs",
     "cordis.patch.yml",
     "README.md"
   ],
