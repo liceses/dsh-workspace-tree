@@ -1,6 +1,6 @@
 {
   "name": "dsh-workspace-tree",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DSH 工作区树：把左侧栏工作区重做为文件系统树双模式——文件夹模式按真实目录层级浏览并新建（会话 cwd = 目录，环境隔离），工作区模式只管工作区与会话；工作区=目录强绑定，含拖拽排序、状态向上透传与配置面板。",
   "type": "module",
   "main": "./lib/index.js",
